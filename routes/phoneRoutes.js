@@ -30,4 +30,14 @@ router.put('/', async (req, res) => {
   res.send(updateContact);
 });
 
+// deletar um contato
+router.delete('/:id', async (req, res) => {
+  const data = JSON.parse(await readFile('models/phonelist.json'));
+  data.phones = data.phones.filter((phone) => {
+    return phone.id !== parseInt(req.params.id);
+  });
+  await writeFile('models/phonelist.json', JSON.stringify(data, null, 2));
+  res.send('delete');
+});
+
 export default router;

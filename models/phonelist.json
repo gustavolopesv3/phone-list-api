@@ -1,0 +1,14 @@
+{
+  "nextId": 2,
+  "phones": [
+    {
+      "id": 1,
+      "name": "Gustavo Lopes",
+      "channelVoice": 8045,
+      "completeNumber": 68123456789,
+      "sector": "T.I",
+      "unity": "A city",
+      "initials": "ACT"
+    }
+  ]
+}

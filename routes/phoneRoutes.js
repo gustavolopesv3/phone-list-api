@@ -20,4 +20,14 @@ router.post('/', async (req, res) => {
   res.send(newContact);
 });
 
+//atualizar contato
+router.put('/', async (req, res) => {
+  let updateContact = req.body;
+  const data = JSON.parse(await readFile('models/phonelist.json'));
+  const index = data.phones.findIndex((a) => a.id === updateContact.id);
+  data.phones[index] = updateContact;
+  await writeFile('models/phonelist.json', JSON.stringify(data, null, 2));
+  res.send(updateContact);
+});
+
 export default router;

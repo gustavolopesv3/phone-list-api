@@ -9,6 +9,15 @@ router.get('/', async (req, res) => {
   res.send(data.phones);
 });
 
+//retornar todos os contatos de uma unidade
+router.get('/:initials', async (req, res) => {
+  const data = JSON.parse(await readFile('models/phonelist.json'));
+  const phone = (data.phones = data.phones.filter((phoneFilter) => {
+    return phoneFilter.initials === req.params.initials;
+  }));
+  res.send(phone);
+});
+
 //criar novo contato
 router.post('/', async (req, res) => {
   let newContact = req.body;

@@ -6,6 +6,6 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use('/phone', phoneRouter);
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log('API started');
 });

@@ -36,6 +36,66 @@
       "sector": "Financeiro",
       "unity": "Rio Branco",
       "initials": "RBR"
+    },
+    {
+      "id": 4,
+      "name": "Francisco Teixeira",
+      "email": "maria.teste@domain.com.br",
+      "channelVoice": 8045,
+      "branch": 4455,
+      "ddd": 68,
+      "completeNumber": 998842,
+      "sector": "Adminsitrativo",
+      "unity": "Rio Branco",
+      "initials": "RBR"
+    },
+    {
+      "id": 5,
+      "name": "Linus Torvalds",
+      "email": "maria.teste@domain.com.br",
+      "channelVoice": 8045,
+      "branch": 4455,
+      "ddd": 68,
+      "completeNumber": 998842,
+      "sector": "Engenheiro",
+      "unity": "Rio Branco",
+      "initials": "RBR"
+    },
+    {
+      "id": 6,
+      "name": "Bill Gates",
+      "email": "Bill.gates@domain.com.br",
+      "channelVoice": 8045,
+      "branch": 4455,
+      "ddd": 68,
+      "completeNumber": 998842,
+      "sector": "Financeiro",
+      "unity": "Rio Branco",
+      "initials": "RBR"
+    },
+    {
+      "id": 7,
+      "name": "Mark Zumkeberg",
+      "email": "mark.zumkeberg@domain.com.br",
+      "channelVoice": 8045,
+      "branch": 4455,
+      "ddd": 68,
+      "completeNumber": 998842,
+      "sector": "Rastreabilidade",
+      "unity": "Rio Branco",
+      "initials": "RBR"
+    },
+    {
+      "id": 8,
+      "name": "Jair Bolsonaro",
+      "email": "jair.bolsonaro@domain.com.br",
+      "channelVoice": 8045,
+      "branch": 4455,
+      "ddd": 68,
+      "completeNumber": 998842,
+      "sector": "Diretor operacional",
+      "unity": "Rio Branco",
+      "initials": "RBR"
     }
   ]
 }

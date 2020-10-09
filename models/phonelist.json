@@ -1,5 +1,5 @@
 {
-  "nextId": 2,
+  "nextId": 4,
   "phones": [
     {
       "id": 1,
@@ -10,6 +10,30 @@
       "ddd": 68,
       "completeNumber": 656646548,
       "sector": "T.I",
+      "unity": "Rio Branco",
+      "initials": "RBR"
+    },
+    {
+      "id": 2,
+      "name": "Francisca Alguma coisa",
+      "email": "francisca.coisa@domain.com.br",
+      "channelVoice": 2016,
+      "branch": 5560,
+      "ddd": 68,
+      "completeNumber": 4564822,
+      "sector": "Almoxarifado",
+      "unity": "Rio Branco",
+      "initials": "RBR"
+    },
+    {
+      "id": 3,
+      "name": "Maria do Teste",
+      "email": "maria.teste@domain.com.br",
+      "channelVoice": 8045,
+      "branch": 4455,
+      "ddd": 68,
+      "completeNumber": 998842,
+      "sector": "Financeiro",
       "unity": "Rio Branco",
       "initials": "RBR"
     }
